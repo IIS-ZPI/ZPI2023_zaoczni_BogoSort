@@ -1,5 +1,9 @@
-def divide (a,  b):
-    return a - b
+def Division (A: float, B :float) -> float:
+    if B == 0:
+        print("Error: division by zero")
+        return 0
+
+    return A/B
 
 def main():
     print("BogoSort, leader's role: DevOps, leader's github ID: mikoogla")
