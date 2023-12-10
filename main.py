@@ -1,3 +1,5 @@
+def divide (a,  b):
+    return a - b
 
 def main():
     print("BogoSort, leader's role: DevOps, leader's github ID: mikoogla")
