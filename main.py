@@ -12,7 +12,7 @@ def main():
     print("BogoSort, role: DevOps, github ID: mikoogla")
     print("BogoSort, role: Developer, github ID: Mati-IR")
 
-    print("6/3", Division(6,3))
+    print("6 / 3 = ", Division(6,3))
 
 if __name__ == "__main__":
     main()
