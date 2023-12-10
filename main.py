@@ -1,6 +1,6 @@
 
 def Multiplication(A: float, B: float) -> float:
-    return a * b
+    return A * B
 
 def main():
     print("BogoSort, leader's role: DevOps, leader's github ID: mikoogla")
@@ -9,5 +9,6 @@ def main():
     print("BogoSort, role: DevOps, github ID: mikoogla")
     print("BogoSort, role: Developer, github ID: Mati-IR")
 
+    print(Multiplication(2, 2))
 if __name__ == "__main__":
     main()
