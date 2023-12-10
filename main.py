@@ -9,6 +9,6 @@ def main():
     print("BogoSort, role: DevOps, github ID: mikoogla")
     print("BogoSort, role: Developer, github ID: Mati-IR")
 
-    print(Multiplication(2, 2))
+    print(f'2 * 2 = {Multiplication(2, 2)}')
 if __name__ == "__main__":
     main()
