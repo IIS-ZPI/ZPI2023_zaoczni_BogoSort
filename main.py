@@ -5,6 +5,9 @@ def Division (A: float, B :float) -> float:
 
     return A/B
 
+def Multiplication(A: float, B: float) -> float:
+    return A * B
+
 def main():
     print("BogoSort, leader's role: DevOps, leader's github ID: mikoogla")
     print("BogoSort, role: developer, github ID: jacekdebski")
@@ -12,6 +15,7 @@ def main():
     print("BogoSort, role: DevOps, github ID: mikoogla")
     print("BogoSort, role: Developer, github ID: Mati-IR")
 
+    print(f'2 * 2 = {Multiplication(2, 2)}')
     print("6 / 3 = ", Division(6,3))
 
 if __name__ == "__main__":
