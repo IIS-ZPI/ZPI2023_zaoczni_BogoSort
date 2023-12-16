@@ -1,9 +1,10 @@
+#function defitions
 def Addition(A: float, B: float) -> float:
     return A + B
 
 def Difference(A: float, B: float) -> float:
     return A - B
-  
+
 def Division (A: float, B :float) -> float:
     if B == 0:
         print("Error: division by zero")
