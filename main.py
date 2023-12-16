@@ -3,7 +3,7 @@ def Addition(A: float, B: float) -> float:
 
 def Difference(A: float, B: float) -> float:
     return A - B
-  
+
 def Division (A: float, B :float) -> float:
     if B == 0:
         print("Error: division by zero")
@@ -14,6 +14,7 @@ def Multiplication(A: float, B: float) -> float:
     return A * B
 
 
+#start application
 def main():
     print("BogoSort, leader's role: DevOps, leader's github ID: mikoogla")
     print("BogoSort, role: developer, github ID: jacekdebski")
