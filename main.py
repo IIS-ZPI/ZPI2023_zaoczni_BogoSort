@@ -1,8 +1,10 @@
+def Difference(A: float, B: float) -> float:
+    return A - B
+  
 def Division (A: float, B :float) -> float:
     if B == 0:
         print("Error: division by zero")
         return 0
-
     return A/B
 
 def Multiplication(A: float, B: float) -> float:
@@ -15,6 +17,7 @@ def main():
     print("BogoSort, role: DevOps, github ID: mikoogla")
     print("BogoSort, role: Developer, github ID: Mati-IR")
 
+    print("3 - 1 = ", Difference(3, 1))
     print(f'2 * 2 = {Multiplication(2, 2)}')
     print("6 / 3 = ", Division(6,3))
 
