@@ -1,3 +1,4 @@
+# operations
 def Addition(A: float, B: float) -> float:
     return A + B
 
@@ -10,6 +11,7 @@ def Difference(A: float, B: float) -> float:
 # return: A/B
 def Division (A: float, B :float) -> float:
     if B == 0:
+        # print error
         print("Error: division by zero")
         return 0
     return A/B
@@ -28,6 +30,7 @@ def main():
     print("BogoSort, role: DevOps, github ID: mikoogla")
     print("BogoSort, role: Developer, github ID: Mati-IR")
 
+    # test if the functions work correctly
     # Second comment
 
     print(f"2 + 3 = {Addition(2, 3)}")
