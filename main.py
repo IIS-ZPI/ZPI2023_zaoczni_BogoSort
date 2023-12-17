@@ -21,7 +21,7 @@ def Division (A: float, B :float) -> float:
 def Multiplication(A: float, B: float) -> float:
     return A * B
 
-
+# Main function
 def main():
     # First comment
     print("BogoSort, leader's role: DevOps, leader's github ID: mikoogla")
