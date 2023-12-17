@@ -1,3 +1,4 @@
+#function defitions
 def Addition(A: float, B: float) -> float:
     return A + B
 
@@ -15,6 +16,7 @@ def Multiplication(A: float, B: float) -> float:
 
 
 def main():
+    # print team info
     print("BogoSort, leader's role: DevOps, leader's github ID: mikoogla")
     print("BogoSort, role: developer, github ID: jacekdebski")
     print("BogoSort, role: tester, github ID: rfilipczak")
