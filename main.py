@@ -15,6 +15,7 @@ def Multiplication(A: float, B: float) -> float:
 
 
 def main():
+    # First comment
     print("BogoSort, leader's role: DevOps, leader's github ID: mikoogla")
     print("BogoSort, role: developer, github ID: jacekdebski")
     print("BogoSort, role: tester, github ID: rfilipczak")
