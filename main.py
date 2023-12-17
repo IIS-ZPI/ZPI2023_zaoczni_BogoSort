@@ -43,7 +43,7 @@ def main():
     print(f'2 * 2 = {Multiplication(2, 2)}')
     print("6 / 3 = ", Division(6,3))
 
-if __name__ == "__main__": # very important comment
+if __name__ == "__main__":
     # Third comment
     main()
     # wrong comment
