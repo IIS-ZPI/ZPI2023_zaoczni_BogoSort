@@ -17,6 +17,7 @@ def main():
     print("BogoSort, role: DevOps, github ID: mikoogla")
     print("BogoSort, role: Developer, github ID: Mati-IR")
 
+    # test if the functions work correctly
     print("3 - 1 = ", Difference(3, 1))
     print(f'2 * 2 = {Multiplication(2, 2)}')
     print("6 / 3 = ", Division(6,3))
