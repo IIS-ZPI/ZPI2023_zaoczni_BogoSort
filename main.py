@@ -5,13 +5,17 @@ def Addition(A: float, B: float) -> float:
 # return: A - B
 def Difference(A: float, B: float) -> float:
     return A - B
-  
+
+# parameters: A, B
+# return: A/B
 def Division (A: float, B :float) -> float:
     if B == 0:
         print("Error: division by zero")
         return 0
     return A/B
 
+# parameters: A, B
+# return: A*B
 def Multiplication(A: float, B: float) -> float:
     return A * B
 
