@@ -27,7 +27,7 @@ def Multiplication(A: float, B: float) -> float:
 def main():
     # print team info
     # First comment
-    
+
     print("BogoSort, leader's role: DevOps, leader's github ID: mikoogla")
     print("BogoSort, role: developer, github ID: jacekdebski")
     print("BogoSort, role: tester, github ID: rfilipczak")
@@ -37,7 +37,7 @@ def main():
     # sample output:
     # test if the functions work correctly
     # Second comment
-    
+
     print(f"2 + 3 = {Addition(2, 3)}")
     print("3 - 1 = ", Difference(3, 1))
     print(f'2 * 2 = {Multiplication(2, 2)}')
@@ -46,3 +46,4 @@ def main():
 if __name__ == "__main__": # very important comment
     # Third comment
     main()
+    # wrong comment
