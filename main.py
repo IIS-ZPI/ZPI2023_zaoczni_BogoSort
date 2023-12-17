@@ -3,6 +3,7 @@ def Difference(A: float, B: float) -> float:
   
 def Division (A: float, B :float) -> float:
     if B == 0:
+        #print error
         print("Error: division by zero")
         return 0
     return A/B
