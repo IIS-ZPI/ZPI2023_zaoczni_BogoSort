@@ -1,6 +1,8 @@
 def Addition(A: float, B: float) -> float:
     return A + B
 
+# parameters: A, B
+# return: A - B
 def Difference(A: float, B: float) -> float:
     return A - B
   
