@@ -22,10 +22,13 @@ def main():
     print("BogoSort, role: DevOps, github ID: mikoogla")
     print("BogoSort, role: Developer, github ID: Mati-IR")
 
+    # Second comment
+
     print(f"2 + 3 = {Addition(2, 3)}")
     print("3 - 1 = ", Difference(3, 1))
     print(f'2 * 2 = {Multiplication(2, 2)}')
     print("6 / 3 = ", Division(6,3))
 
 if __name__ == "__main__":
+    # Third comment
     main()
