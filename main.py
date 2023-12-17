@@ -23,7 +23,7 @@ def Division (A: float, B :float) -> float:
 def Multiplication(A: float, B: float) -> float:
     return A * B
 
-# Main function
+
 def main():
     # print team info
     # First comment
