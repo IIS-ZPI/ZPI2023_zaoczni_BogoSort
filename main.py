@@ -23,6 +23,9 @@ def Division (A: float, B :float) -> float:
 def Multiplication(A: float, B: float) -> float:
     return A * B
 
+def Power(A: float, B: float) -> float:
+    return A ** B
+
 # Main function
 def main():
     # print team info
@@ -42,6 +45,7 @@ def main():
     print("3 - 1 = ", Difference(3, 1))
     print(f'2 * 2 = {Multiplication(2, 2)}')
     print("6 / 3 = ", Division(6,3))
+    print("2 ^ 3 = ", Power(2,3))
 
 if __name__ == "__main__": # very important comment
     # Third comment
