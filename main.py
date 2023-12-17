@@ -10,6 +10,8 @@ def Division (A: float, B :float) -> float:
         return 0
     return A/B
 
+# parameters: A, B
+# return: A*B
 def Multiplication(A: float, B: float) -> float:
     return A * B
 
