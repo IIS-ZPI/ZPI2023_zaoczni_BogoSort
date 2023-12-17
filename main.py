@@ -41,6 +41,6 @@ def main():
     print("6 / 3 = ", Division(6,3))
     print("2 ^ 3 = ", Power(2,3))
 
-if __name__ == "__main__":
+if __name__ == "__main__": # very important comment
     # Third comment
     main()
